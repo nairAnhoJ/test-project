@@ -57,7 +57,6 @@ const GearCluster: React.FC = () => (
 
 function App() {  
 	const [visible, setVisible] = useState<boolean>(false);
-  	const [notified, setNotified] = useState<boolean>(false);
  
 	useEffect(() => {
 		const t = setTimeout(() => setVisible(true), 60);
